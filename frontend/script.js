@@ -4,7 +4,7 @@ function calculate() {
     let num2 = document.getElementById("num2").value;
     let operator = document.getElementById("operator").value;
 
-    fetch("http://192.168.160.163:5000/calculate", {
+    fetch("http://127.0.0.1:5000/calculate", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
